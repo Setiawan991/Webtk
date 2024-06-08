@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  background-image: url("/img/ebd7c65a-ecf0-46ee-b33a-838dd2cb32f9.jpeg");
+  background-size: cover;
+  background-position: cover;
+  transition: transform 0.5s ease-in-out;
+}
