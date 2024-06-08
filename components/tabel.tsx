@@ -6,7 +6,6 @@ import { DeleteMurid } from "@/action/deleteMurid";
 import FromEditMurid from "./formEditmurid";
 import DeleteStudent from "./deletestudent";
 
-
 interface paramMurid {
   id: string;
   nama: string;
@@ -62,7 +61,7 @@ const Table = ({ data }: tabelProps) => {
           <tbody>
             {data?.map((event: any) => {
               return (
-                <tr>
+                <tr key={event.id}>
                   {ubah && (
                     <td>
                       <input
