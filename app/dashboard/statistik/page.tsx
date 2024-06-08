@@ -1,5 +1,6 @@
-import Navbar from "@/component/navbar";
-import Sidebar from "@/component/sidebar";
+import Navbar from "@/components/navbar";
+import Sidebar from "@/components/sidebar";
+
 
 
 const Page = () => {
